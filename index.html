@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Movie Gallery</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script type="text/javascript" src="js/lib/jquery-1.11.0.js"></script>
+	<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/lib/riot.js"></script>
+
+	<script type="text/javascript" src="js/model/movies.js"></script>
+	<script type="text/javascript" src="js/views/movieListItem.js"></script>
+	<script type="text/javascript" src="js/views/movieDetails.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>	
+</head>
+<body>
+
+<!-- UI -->
+<div id="main-container">
+	<div id="header">Movie Gallery</div>	
+	<div id="mid-panel">
+		<div id="movie-list-panel">
+			<ul id="movie-list"></ul>
+			<div id="movie-details" style="display:none;"></div>
+		</div>		
+	</div>
+	<div id="footer">All rights reserved. Movie Gallery</div>
+</div>
+
+<!-- TEMPLATES -->
+<script type="text/template" id="tmpl-listItem">
+	<div data-itemid="{id}" class="movie-item">
+		<div>{title}</div>
+		<div>{year}</div>
+	</div>	
+</script>
+
+<script type="text/template" id="tmpl-itemDetails">
+	<div data-itemid="{id}" class="movie-details">
+		<div>{title}</div>
+		<div>{year}</div>
+		<div>{plot}</div>
+	</div>
+	<div>
+	<a href="#movies">Go to Movies</a>
+	</div>	
+</script>
+
+</body>
+</html>

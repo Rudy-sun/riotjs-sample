@@ -1,0 +1,16 @@
+[
+		{
+			"id": 1,
+			"title": "Pacific Rim",
+			"year": 2013,
+			"genres": ["Action", "Adventure", "Sci-Fi"],
+			"plot": "It's a jungle out there for Blu, Jewel and their three kids after they're hurtled Rio de Janeiro to the wilds of the Amazon. As Blu tries to fit in, he goes beak-to-beak with the vengeful Nigel, and meets the most fearsome adversary of all: his father-in-law."
+		},
+		{
+			"id": 2,
+			"title": "Rio 2",
+			"year": 2014,
+			"genres": ["Animation", "Adventure", "Comedy", "Family"],
+			"plot": "When monstrous creatures, known as Kaiju, started rising from the sea, a war began that would take millions of lives and consume humanity's resources for years on end. To combat the giant Kaiju, a special type of weapon was devised: massive robots, called Jaegers, which are controlled simultaneously by two pilots whose minds are locked in a neural bridge. But even the Jaegers are proving nearly defenseless in the face of the relentless Kaiju. On the verge of defeat, the forces defending mankind have no choice but to turn to two unlikely heroes - a washed up former pilot (Charlie Hunnam) and an untested trainee (Rinko Kikuchi) - who are teamed to drive a legendary but seemingly obsolete Jaeger from the past. Together, they stand as mankind's last hope against the mounting apocalypse."
+		}
+]

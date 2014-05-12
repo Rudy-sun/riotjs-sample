@@ -1,0 +1,31 @@
+#main-container{
+	padding: 5px;
+	width: 800px;
+	margin: auto;
+	text-align: center;
+}
+
+#movie-list{
+	list-style-type: none;
+	padding: 0px;
+}
+
+#movie-list li{
+	padding: 5px;
+	border: solid 1px #eee;
+	cursor: pointer;
+	margin-top: 2px;
+}
+
+#movie-list li:hover{
+	border: solid 1px #ccc;
+}
+
+#header{
+	margin-bottom: 20px;
+	font-size: 2em;
+}
+
+#footer{
+	margin-top: 20px;
+}
