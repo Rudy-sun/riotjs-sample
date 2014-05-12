@@ -13,5 +13,6 @@ My app is a simple movie library that spans in 2 views and consumes JSON data fe
 
 
 =============
-Installation
+Installation:
+
 Simply host on any web server and hit index.html. :-)
